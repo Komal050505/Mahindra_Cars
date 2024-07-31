@@ -1,0 +1,5 @@
+flask
+requests
+jsonify
+Flask
+flask-cors

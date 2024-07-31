@@ -1,0 +1,349 @@
+2024-07-31 18:10:54,505 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-31 18:10:54,506 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-31 18:10:54,513 - INFO -  * Restarting with stat
+2024-07-31 18:10:54,946 - WARNING -  * Debugger is active!
+2024-07-31 18:10:54,958 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:13:14,732 - INFO - Received request for car number: TR005
+2024-07-31 18:13:14,733 - DEBUG - Found car number: TR005 in type: petrol_cars_with_gear
+2024-07-31 18:13:23,079 - INFO - 127.0.0.1 - - [31/Jul/2024 18:13:23] "GET /car/TR005 HTTP/1.1" 200 -
+2024-07-31 18:13:57,310 - INFO - 127.0.0.1 - - [31/Jul/2024 18:13:57] "[33mGET /cars HTTP/1.1[0m" 404 -
+2024-07-31 18:14:06,383 - INFO - Received request for car number: TR005
+2024-07-31 18:14:06,384 - DEBUG - Found car number: TR005 in type: petrol_cars_with_gear
+2024-07-31 18:14:20,175 - INFO - 127.0.0.1 - - [31/Jul/2024 18:14:20] "GET /car/TR005 HTTP/1.1" 200 -
+2024-07-31 18:15:28,122 - INFO - Received request for car type: Petrol_car_with_gear
+2024-07-31 18:15:28,123 - ERROR - Car type Petrol_car_with_gear not found
+2024-07-31 18:15:41,600 - INFO - 127.0.0.1 - - [31/Jul/2024 18:15:41] "[33mGET /cars/Petrol_car_with_gear HTTP/1.1[0m" 404 -
+2024-07-31 18:16:09,964 - INFO - Received request for car type: Petrol_cars_with_gear
+2024-07-31 18:16:09,964 - ERROR - Car type Petrol_cars_with_gear not found
+2024-07-31 18:16:22,625 - INFO - 127.0.0.1 - - [31/Jul/2024 18:16:22] "[33mGET /cars/Petrol_cars_with_gear HTTP/1.1[0m" 404 -
+2024-07-31 18:16:28,771 - INFO - Received request for car type: petrol_cars_with_gear
+2024-07-31 18:16:28,772 - INFO - Successfully retrieved car type: petrol_cars_with_gear
+2024-07-31 18:16:36,962 - INFO - 127.0.0.1 - - [31/Jul/2024 18:16:36] "GET /cars/petrol_cars_with_gear HTTP/1.1" 200 -
+2024-07-31 18:17:09,506 - INFO - Received request for car type: diesel_cars_with_gear
+2024-07-31 18:17:09,506 - INFO - Successfully retrieved car type: diesel_cars_with_gear
+2024-07-31 18:17:20,973 - INFO - 127.0.0.1 - - [31/Jul/2024 18:17:20] "GET /cars/diesel_cars_with_gear HTTP/1.1" 200 -
+2024-07-31 18:17:36,380 - INFO - Received request for car type: electric_cars_with_gear
+2024-07-31 18:17:36,380 - INFO - Successfully retrieved car type: electric_cars_with_gear
+2024-07-31 18:17:51,833 - INFO - 127.0.0.1 - - [31/Jul/2024 18:17:51] "GET /cars/electric_cars_with_gear HTTP/1.1" 200 -
+2024-07-31 18:19:36,463 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 18:19:36,541 - INFO -  * Restarting with stat
+2024-07-31 18:19:37,494 - WARNING -  * Debugger is active!
+2024-07-31 18:19:37,507 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:19:38,599 - INFO - Received request for car type: electric_cars_with_gear
+2024-07-31 18:19:38,599 - INFO - Successfully retrieved car type: electric_cars_with_gear
+2024-07-31 18:19:48,057 - INFO - 127.0.0.1 - - [31/Jul/2024 18:19:48] "GET /cars/electric_cars_with_gear HTTP/1.1" 200 -
+2024-07-31 18:20:20,947 - INFO - Received request for car number: TR005
+2024-07-31 18:20:20,947 - DEBUG - Found car number: TR005 in type: petrol_cars_with_gear
+2024-07-31 18:20:30,402 - INFO - 127.0.0.1 - - [31/Jul/2024 18:20:30] "GET /car/TR005 HTTP/1.1" 200 -
+2024-07-31 18:21:32,082 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 18:21:32,185 - INFO -  * Restarting with stat
+2024-07-31 18:21:32,774 - WARNING -  * Debugger is active!
+2024-07-31 18:21:32,782 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:22:06,085 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 18:22:06,206 - INFO -  * Restarting with stat
+2024-07-31 18:22:06,850 - WARNING -  * Debugger is active!
+2024-07-31 18:22:06,860 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:23:46,659 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 18:23:46,747 - INFO -  * Restarting with stat
+2024-07-31 18:23:47,303 - WARNING -  * Debugger is active!
+2024-07-31 18:23:47,313 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:23:48,226 - INFO - 127.0.0.1 - - [31/Jul/2024 18:23:48] "[31m[1mGET /cars/electric_cars_with_gear/TR011 HTTP/1.1[0m" 405 -
+2024-07-31 18:24:18,868 - INFO - Received request to delete car number: TR011 from type: electric_cars_with_gear
+2024-07-31 18:24:18,870 - INFO - Deleted car number: TR011 from type: electric_cars_with_gear
+2024-07-31 18:24:24,189 - INFO - 127.0.0.1 - - [31/Jul/2024 18:24:24] "[35m[1mDELETE /cars/electric_cars_with_gear/TR011 HTTP/1.1[0m" 204 -
+2024-07-31 18:25:01,408 - INFO - Received request to delete car number: TR011 from type: electric_cars_with_gear
+2024-07-31 18:25:01,408 - ERROR - Car number TR011 not found in type: electric_cars_with_gear
+2024-07-31 18:25:19,003 - INFO - 127.0.0.1 - - [31/Jul/2024 18:25:19] "[33mDELETE /cars/electric_cars_with_gear/TR011 HTTP/1.1[0m" 404 -
+2024-07-31 18:25:39,934 - INFO - Received request to delete car number: TR015 from type: electric_cars_with_gear
+2024-07-31 18:25:39,934 - INFO - Deleted car number: TR015 from type: electric_cars_with_gear
+2024-07-31 18:25:56,616 - INFO - 127.0.0.1 - - [31/Jul/2024 18:25:56] "[35m[1mDELETE /cars/electric_cars_with_gear/TR015 HTTP/1.1[0m" 204 -
+2024-07-31 18:29:24,742 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 18:29:24,846 - INFO -  * Restarting with stat
+2024-07-31 18:29:25,372 - WARNING -  * Debugger is active!
+2024-07-31 18:29:25,379 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:33:40,305 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 18:33:40,370 - INFO -  * Restarting with stat
+2024-07-31 18:33:40,952 - WARNING -  * Debugger is active!
+2024-07-31 18:33:40,959 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 18:34:46,093 - INFO - Received request to update car number: TR015 in type: electric_cars_with_gear
+2024-07-31 18:34:46,098 - INFO - Updated car number: TR015 in type: electric_cars_with_gear with updates: {'details': 'Updated XUV', 'variant': 'Petrol 2.1', 'gears': 9}
+2024-07-31 18:35:11,954 - INFO - 127.0.0.1 - - [31/Jul/2024 18:35:11] "PATCH /cars/electric_cars_with_gear/TR015 HTTP/1.1" 200 -
+2024-07-31 18:35:26,029 - INFO - Received request to update car number: TR015 in type: electric_cars_with_gear
+2024-07-31 18:35:26,029 - INFO - Updated car number: TR015 in type: electric_cars_with_gear with updates: {'details': 'Special XUV', 'variant': 'Petrol 2.1', 'gears': 9}
+2024-07-31 18:35:35,394 - INFO - 127.0.0.1 - - [31/Jul/2024 18:35:35] "PATCH /cars/electric_cars_with_gear/TR015 HTTP/1.1" 200 -
+2024-07-31 18:39:54,411 - INFO - Received request to add car to type: electric_cars_with_gear
+2024-07-31 18:39:54,411 - INFO - Added new car: {'name': 'Mahindra xuv - 800', 'company': 'Mahindra', 'car_number': 'TR031', 'details': 'New XUV', 'variant': 'Petrol 1.8', 'gears': 9} to type: electric_cars_with_gear
+2024-07-31 18:40:15,814 - INFO - 127.0.0.1 - - [31/Jul/2024 18:40:15] "[35m[1mPOST /cars/electric_cars_with_gear HTTP/1.1[0m" 201 -
+2024-07-31 22:13:00,506 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-31 22:13:00,506 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-31 22:13:00,513 - INFO -  * Restarting with stat
+2024-07-31 22:13:00,937 - WARNING -  * Debugger is active!
+2024-07-31 22:13:00,951 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:18:37,584 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:18:37,632 - INFO -  * Restarting with stat
+2024-07-31 22:18:38,033 - INFO - Update car function ended
+2024-07-31 22:18:38,041 - WARNING -  * Debugger is active!
+2024-07-31 22:18:38,048 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:22:15,201 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:22:15,252 - INFO -  * Restarting with stat
+2024-07-31 22:22:15,627 - INFO - Update car function ended
+2024-07-31 22:22:15,635 - WARNING -  * Debugger is active!
+2024-07-31 22:22:15,642 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:24:55,349 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:24:55,389 - INFO -  * Restarting with stat
+2024-07-31 22:24:55,802 - INFO - Update car function ended
+2024-07-31 22:24:55,812 - WARNING -  * Debugger is active!
+2024-07-31 22:24:55,820 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:25:00,615 - INFO - Update car method started with electric_cars_with_gear, TR015
+2024-07-31 22:25:00,615 - INFO - Received request to update car number: TR015 in type: electric_cars_with_gear
+2024-07-31 22:25:00,616 - INFO - Updated car number: TR015 in type: electric_cars_with_gear with updates: {'details': 'Special XUV', 'variant': 'Petrol 2.1', 'gears': 9}
+2024-07-31 22:25:05,459 - INFO - 127.0.0.1 - - [31/Jul/2024 22:25:05] "PATCH /cars/electric_cars_with_gear/TR015 HTTP/1.1" 200 -
+2024-07-31 22:30:03,787 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:30:03,886 - INFO -  * Restarting with stat
+2024-07-31 22:30:04,481 - INFO -  Add car function ended
+2024-07-31 22:30:04,482 - INFO - Update car function ended
+2024-07-31 22:30:04,483 - INFO - Delete function ended
+2024-07-31 22:30:04,483 - INFO - Get all cars function ended
+2024-07-31 22:30:04,484 - INFO - Get single car function ended
+2024-07-31 22:30:04,494 - WARNING -  * Debugger is active!
+2024-07-31 22:30:04,503 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:31:30,356 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:31:30,473 - INFO -  * Restarting with stat
+2024-07-31 22:31:31,026 - INFO -  Add car function ended
+2024-07-31 22:31:31,026 - INFO - Update car function ended
+2024-07-31 22:31:31,027 - INFO - Delete function ended
+2024-07-31 22:31:31,028 - INFO - Get all cars function ended
+2024-07-31 22:31:31,029 - INFO - Get single car function ended
+2024-07-31 22:31:31,039 - WARNING -  * Debugger is active!
+2024-07-31 22:31:31,050 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:31:36,465 - INFO - Delete car function entered with electric_cars_with_gear, TR015 details
+2024-07-31 22:31:36,465 - INFO - Received request to delete car number: TR015 from type: electric_cars_with_gear
+2024-07-31 22:31:36,465 - ERROR - Error deleting car number TR015 from type electric_cars_with_gear: 'dict' object cannot be interpreted as an integer
+2024-07-31 22:31:39,826 - INFO - 127.0.0.1 - - [31/Jul/2024 22:31:39] "[35m[1mDELETE /cars/electric_cars_with_gear/TR015 HTTP/1.1[0m" 500 -
+2024-07-31 22:31:56,255 - INFO - Delete car function entered with electric_cars_with_gear, TR014 details
+2024-07-31 22:31:56,256 - INFO - Received request to delete car number: TR014 from type: electric_cars_with_gear
+2024-07-31 22:31:56,256 - ERROR - Error deleting car number TR014 from type electric_cars_with_gear: 'dict' object cannot be interpreted as an integer
+2024-07-31 22:31:59,903 - INFO - 127.0.0.1 - - [31/Jul/2024 22:31:59] "[35m[1mDELETE /cars/electric_cars_with_gear/TR014 HTTP/1.1[0m" 500 -
+2024-07-31 22:32:04,910 - INFO - Delete car function entered with electric_cars_with_gear, TR013 details
+2024-07-31 22:32:04,910 - INFO - Received request to delete car number: TR013 from type: electric_cars_with_gear
+2024-07-31 22:32:04,910 - ERROR - Error deleting car number TR013 from type electric_cars_with_gear: 'dict' object cannot be interpreted as an integer
+2024-07-31 22:32:08,381 - INFO - 127.0.0.1 - - [31/Jul/2024 22:32:08] "[35m[1mDELETE /cars/electric_cars_with_gear/TR013 HTTP/1.1[0m" 500 -
+2024-07-31 22:34:18,597 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:34:18,671 - INFO -  * Restarting with stat
+2024-07-31 22:34:19,061 - INFO -  Add car function ended
+2024-07-31 22:34:19,061 - INFO - Update car function ended
+2024-07-31 22:34:19,062 - INFO - Delete function ended
+2024-07-31 22:34:19,063 - INFO - Get all cars function ended
+2024-07-31 22:34:19,063 - INFO - Get single car function ended
+2024-07-31 22:34:19,071 - WARNING -  * Debugger is active!
+2024-07-31 22:34:19,079 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:34:20,135 - INFO - Delete car function entered with electric_cars_with_gear, TR013 details
+2024-07-31 22:34:20,135 - INFO - Received request to delete car number: TR013 from type: electric_cars_with_gear
+2024-07-31 22:34:20,136 - INFO - Deleted car number: TR013 from type: electric_cars_with_gear
+2024-07-31 22:34:23,408 - INFO - 127.0.0.1 - - [31/Jul/2024 22:34:23] "[35m[1mDELETE /cars/electric_cars_with_gear/TR013 HTTP/1.1[0m" 204 -
+2024-07-31 22:35:04,962 - INFO - Delete car function entered with electric_cars_with_gear, TR013 details
+2024-07-31 22:35:04,962 - INFO - Received request to delete car number: TR013 from type: electric_cars_with_gear
+2024-07-31 22:35:04,963 - ERROR - Car number TR013 not found in type: electric_cars_with_gear
+2024-07-31 22:35:08,465 - INFO - 127.0.0.1 - - [31/Jul/2024 22:35:08] "[33mDELETE /cars/electric_cars_with_gear/TR013 HTTP/1.1[0m" 404 -
+2024-07-31 22:37:14,309 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:37:14,387 - INFO -  * Restarting with stat
+2024-07-31 22:37:14,835 - INFO -  Add car function ended
+2024-07-31 22:37:14,836 - INFO - Update car function ended
+2024-07-31 22:37:14,837 - INFO - Delete function ended
+2024-07-31 22:37:14,837 - INFO - Get all cars function ended
+2024-07-31 22:37:14,838 - INFO - Get single car function ended
+2024-07-31 22:37:14,848 - WARNING -  * Debugger is active!
+2024-07-31 22:37:14,855 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:37:25,297 - INFO - Delete car function entered with electric_cars_with_gear, TR013 details
+2024-07-31 22:37:25,298 - INFO - Received request to delete car number: TR013 from type: electric_cars_with_gear
+2024-07-31 22:37:25,298 - INFO - Deleted car number: TR013 from type: electric_cars_with_gear
+2024-07-31 22:37:28,820 - INFO - 127.0.0.1 - - [31/Jul/2024 22:37:28] "DELETE /cars/electric_cars_with_gear/TR013 HTTP/1.1" 200 -
+2024-07-31 22:39:26,558 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:39:26,625 - INFO -  * Restarting with stat
+2024-07-31 22:39:27,051 - INFO -  Add car function ended
+2024-07-31 22:39:27,052 - INFO - Update car function ended
+2024-07-31 22:39:27,053 - INFO - Delete function ended
+2024-07-31 22:39:27,053 - INFO - Get all cars function ended
+2024-07-31 22:39:27,054 - INFO - Get single car function ended
+2024-07-31 22:39:27,065 - WARNING -  * Debugger is active!
+2024-07-31 22:39:27,075 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:39:31,661 - INFO - Get single car function started with TR005 details
+2024-07-31 22:39:31,661 - INFO - Received request for car number: TR005
+2024-07-31 22:39:31,661 - ERROR - Error retrieving car number TR005: string indices must be integers, not 'str'
+2024-07-31 22:39:35,059 - INFO - 127.0.0.1 - - [31/Jul/2024 22:39:35] "[35m[1mGET /car/TR005 HTTP/1.1[0m" 500 -
+2024-07-31 22:41:37,671 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:41:37,722 - INFO -  * Restarting with stat
+2024-07-31 22:41:38,192 - INFO -  Add car function ended
+2024-07-31 22:41:38,193 - INFO - Update car function ended
+2024-07-31 22:41:38,193 - INFO - Delete function ended
+2024-07-31 22:41:38,194 - INFO - Get all cars function ended
+2024-07-31 22:41:38,194 - INFO - Get single car function ended
+2024-07-31 22:41:38,204 - WARNING -  * Debugger is active!
+2024-07-31 22:41:38,213 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:41:38,822 - INFO - Get single car function started with TR005 details
+2024-07-31 22:41:38,822 - INFO - Received request for car number: TR005
+2024-07-31 22:41:38,822 - DEBUG - Found car number: TR005 in type: petrol_cars_with_gear
+2024-07-31 22:41:42,190 - INFO - 127.0.0.1 - - [31/Jul/2024 22:41:42] "GET /car/TR005 HTTP/1.1" 200 -
+2024-07-31 22:48:16,497 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:48:16,548 - INFO -  * Restarting with stat
+2024-07-31 22:48:17,028 - INFO -  Add car function ended
+2024-07-31 22:48:17,029 - INFO - Update car function ended
+2024-07-31 22:48:17,030 - INFO - Delete function ended
+2024-07-31 22:48:17,030 - INFO - Get all cars function ended
+2024-07-31 22:48:17,031 - INFO - Get single car function ended
+2024-07-31 22:48:17,040 - WARNING -  * Debugger is active!
+2024-07-31 22:48:17,047 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:49:07,171 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:49:07,233 - INFO -  * Restarting with stat
+2024-07-31 22:49:07,674 - INFO -  Add car function ended
+2024-07-31 22:49:07,675 - INFO - Update car function ended
+2024-07-31 22:49:07,676 - INFO - Delete function ended
+2024-07-31 22:49:07,677 - INFO - Get all cars function ended
+2024-07-31 22:49:07,677 - INFO - Get single car function ended
+2024-07-31 22:49:07,687 - WARNING -  * Debugger is active!
+2024-07-31 22:49:07,695 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:49:20,111 - INFO - Get all car function started with electric_cars_with_gear details
+2024-07-31 22:49:20,111 - INFO - Received request for car type: electric_cars_with_gear
+2024-07-31 22:49:20,111 - INFO - Successfully retrieved car type: electric_cars_with_gear
+2024-07-31 22:49:23,550 - INFO - 127.0.0.1 - - [31/Jul/2024 22:49:23] "GET /cars/electric_cars_with_gear HTTP/1.1" 200 -
+2024-07-31 22:50:47,887 - INFO - 127.0.0.1 - - [31/Jul/2024 22:50:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-07-31 22:55:19,116 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:55:19,164 - INFO -  * Restarting with stat
+2024-07-31 22:55:19,641 - INFO -  Add car function ended
+2024-07-31 22:55:19,641 - INFO - Update car function ended
+2024-07-31 22:55:19,642 - INFO - Delete function ended
+2024-07-31 22:55:19,642 - INFO - Get all cars function ended
+2024-07-31 22:55:19,643 - INFO - Get single car function ended
+2024-07-31 22:55:19,651 - WARNING -  * Debugger is active!
+2024-07-31 22:55:19,658 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 22:57:32,246 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 22:57:32,289 - INFO -  * Restarting with stat
+2024-07-31 22:57:32,663 - INFO -  Add car function ended
+2024-07-31 22:57:32,664 - INFO - Update car function ended
+2024-07-31 22:57:32,665 - INFO - Delete function ended
+2024-07-31 22:57:32,665 - INFO - Get all cars function ended
+2024-07-31 22:57:32,666 - INFO - Get single car function ended
+2024-07-31 22:57:32,674 - WARNING -  * Debugger is active!
+2024-07-31 22:57:32,682 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 23:02:31,398 - INFO -  Add car function ended
+2024-07-31 23:02:31,399 - INFO - Update car function ended
+2024-07-31 23:02:31,400 - INFO - Delete function ended
+2024-07-31 23:02:31,400 - INFO - Get all cars function ended
+2024-07-31 23:02:31,401 - INFO - Get single car function ended
+2024-07-31 23:02:31,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-31 23:02:31,428 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-31 23:02:31,432 - INFO -  * Restarting with stat
+2024-07-31 23:02:31,772 - INFO -  Add car function ended
+2024-07-31 23:02:31,773 - INFO - Update car function ended
+2024-07-31 23:02:31,773 - INFO - Delete function ended
+2024-07-31 23:02:31,774 - INFO - Get all cars function ended
+2024-07-31 23:02:31,774 - INFO - Get single car function ended
+2024-07-31 23:02:31,782 - WARNING -  * Debugger is active!
+2024-07-31 23:02:31,789 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 23:02:49,027 - INFO - Add car function started with electric_cars_with_gear details
+2024-07-31 23:02:49,028 - INFO - Received request to add car to type: electric_cars_with_gear
+2024-07-31 23:02:49,028 - INFO - Added new car: {'name': 'Mahindra xuv - 800', 'company': 'Mahindra', 'car_number': 'TR031', 'details': 'New XUV', 'variant': 'Petrol 1.8', 'gears': 9} to type: electric_cars_with_gear
+2024-07-31 23:02:52,813 - INFO - 127.0.0.1 - - [31/Jul/2024 23:02:52] "[35m[1mPOST /cars/electric_cars_with_gear HTTP/1.1[0m" 201 -
+2024-07-31 23:43:56,559 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 23:43:56,650 - INFO -  * Restarting with stat
+2024-07-31 23:43:57,567 - INFO -  Add car function ended
+2024-07-31 23:43:57,568 - INFO - Update car function ended
+2024-07-31 23:43:57,569 - INFO - Delete function ended
+2024-07-31 23:43:57,570 - INFO - Get all cars function ended
+2024-07-31 23:43:57,571 - INFO - Get single car function ended
+2024-07-31 23:43:57,599 - WARNING -  * Debugger is active!
+2024-07-31 23:43:57,612 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 23:44:31,109 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 23:44:31,220 - INFO -  * Restarting with stat
+2024-07-31 23:44:31,884 - INFO -  Add car function ended
+2024-07-31 23:44:31,886 - INFO - Update car function ended
+2024-07-31 23:44:31,887 - INFO - Delete function ended
+2024-07-31 23:44:31,890 - INFO - Get all cars function ended
+2024-07-31 23:44:31,891 - INFO - Get single car function ended
+2024-07-31 23:44:31,893 - INFO - Get cars by cost function ended
+2024-07-31 23:44:31,904 - WARNING -  * Debugger is active!
+2024-07-31 23:44:31,913 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 23:46:49,150 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-07-31 23:46:49,278 - INFO -  * Restarting with stat
+2024-07-31 23:46:49,900 - INFO -  Add car function ended
+2024-07-31 23:46:49,901 - INFO - Update car function ended
+2024-07-31 23:46:49,901 - INFO - Delete function ended
+2024-07-31 23:46:49,902 - INFO - Get all cars function ended
+2024-07-31 23:46:49,903 - INFO - Get single car function ended
+2024-07-31 23:46:49,903 - INFO -  Get cars by year function ended
+2024-07-31 23:46:49,903 - INFO - Get cars by cost function ended
+2024-07-31 23:46:49,913 - WARNING -  * Debugger is active!
+2024-07-31 23:46:49,921 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 23:50:19,528 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\constants.py', reloading
+2024-07-31 23:50:19,621 - INFO -  * Restarting with stat
+2024-07-31 23:50:20,116 - INFO -  Add car function ended
+2024-07-31 23:50:20,117 - INFO - Update car function ended
+2024-07-31 23:50:20,117 - INFO - Delete function ended
+2024-07-31 23:50:20,118 - INFO - Get all cars function ended
+2024-07-31 23:50:20,118 - INFO - Get single car function ended
+2024-07-31 23:50:20,119 - INFO -  Get cars by year function ended
+2024-07-31 23:50:20,119 - INFO - Get cars by cost function ended
+2024-07-31 23:50:20,129 - WARNING -  * Debugger is active!
+2024-07-31 23:50:20,137 - INFO -  * Debugger PIN: 670-511-743
+2024-07-31 23:51:13,989 - INFO - Get cars by cost range function started with min_cost 10000.0 and max_cost 30000.0
+2024-07-31 23:51:13,989 - INFO - Successfully retrieved cars in cost range: 10000.0 - 30000.0
+2024-07-31 23:51:17,866 - INFO - 127.0.0.1 - - [31/Jul/2024 23:51:17] "GET /cars/by_cost?min_cost=10000&max_cost=30000 HTTP/1.1" 200 -
+2024-07-31 23:51:50,829 - INFO - Get cars by cost range function started with min_cost 10000.0 and max_cost None
+2024-07-31 23:51:50,830 - ERROR - Error retrieving cars in cost range 10000.0 - None: '<=' not supported between instances of 'int' and 'NoneType'
+2024-07-31 23:51:54,351 - INFO - 127.0.0.1 - - [31/Jul/2024 23:51:54] "[35m[1mGET /cars/by_cost?min_cost=10000 HTTP/1.1[0m" 500 -
+2024-07-31 23:52:09,986 - INFO - Get cars by cost range function started with min_cost 10000.0 and max_cost 300000.0
+2024-07-31 23:52:09,987 - INFO - Successfully retrieved cars in cost range: 10000.0 - 300000.0
+2024-07-31 23:52:13,275 - INFO - 127.0.0.1 - - [31/Jul/2024 23:52:13] "GET /cars/by_cost?min_cost=10000&max_cost=300000 HTTP/1.1" 200 -
+2024-07-31 23:52:22,314 - INFO - Get cars by cost range function started with min_cost 20000.0 and max_cost 300000.0
+2024-07-31 23:52:22,315 - INFO - Successfully retrieved cars in cost range: 20000.0 - 300000.0
+2024-07-31 23:52:26,082 - INFO - 127.0.0.1 - - [31/Jul/2024 23:52:26] "GET /cars/by_cost?min_cost=20000&max_cost=300000 HTTP/1.1" 200 -
+2024-07-31 23:52:51,969 - INFO - Get cars by cost range function started with min_cost 30000.0 and max_cost 300000.0
+2024-07-31 23:52:51,969 - INFO - Successfully retrieved cars in cost range: 30000.0 - 300000.0
+2024-07-31 23:52:55,214 - INFO - 127.0.0.1 - - [31/Jul/2024 23:52:55] "GET /cars/by_cost?min_cost=30000&max_cost=300000 HTTP/1.1" 200 -
+2024-07-31 23:54:43,481 - INFO - Get cars by year function started for year 2022
+2024-07-31 23:54:43,482 - INFO - Successfully retrieved cars for year: 2022
+2024-07-31 23:54:47,010 - INFO - 127.0.0.1 - - [31/Jul/2024 23:54:47] "GET /cars/by_year/2022 HTTP/1.1" 200 -
+2024-07-31 23:54:56,945 - INFO - Get cars by year function started for year 2024
+2024-07-31 23:54:56,946 - INFO - Successfully retrieved cars for year: 2024
+2024-07-31 23:55:00,386 - INFO - 127.0.0.1 - - [31/Jul/2024 23:55:00] "GET /cars/by_year/2024 HTTP/1.1" 200 -
+2024-08-01 00:06:57,268 - INFO - 127.0.0.1 - - [01/Aug/2024 00:06:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-08-01 00:06:57,863 - INFO - 127.0.0.1 - - [01/Aug/2024 00:06:57] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-08-01 00:06:57,887 - INFO - 127.0.0.1 - - [01/Aug/2024 00:06:57] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-08-01 00:06:57,952 - INFO - 127.0.0.1 - - [01/Aug/2024 00:06:57] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-08-01 00:06:57,972 - INFO - 127.0.0.1 - - [01/Aug/2024 00:06:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-08-01 00:12:16,816 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-08-01 00:12:16,917 - INFO -  * Restarting with stat
+2024-08-01 00:16:08,549 - INFO -  Add car function ended
+2024-08-01 00:16:08,550 - INFO - Update car function ended
+2024-08-01 00:16:08,551 - INFO - Delete function ended
+2024-08-01 00:16:08,552 - INFO - Get all cars function ended
+2024-08-01 00:16:08,552 - INFO - Get single car function ended
+2024-08-01 00:16:08,553 - INFO -  Get cars by year function ended
+2024-08-01 00:16:08,553 - INFO - Get cars by cost function ended
+2024-08-01 00:16:08,581 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-01 00:16:08,581 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-01 00:16:08,585 - INFO -  * Restarting with stat
+2024-08-01 00:16:09,080 - INFO -  Add car function ended
+2024-08-01 00:16:09,081 - INFO - Update car function ended
+2024-08-01 00:16:09,082 - INFO - Delete function ended
+2024-08-01 00:16:09,083 - INFO - Get all cars function ended
+2024-08-01 00:16:09,083 - INFO - Get single car function ended
+2024-08-01 00:16:09,084 - INFO -  Get cars by year function ended
+2024-08-01 00:16:09,085 - INFO - Get cars by cost function ended
+2024-08-01 00:16:09,093 - WARNING -  * Debugger is active!
+2024-08-01 00:16:09,103 - INFO -  * Debugger PIN: 670-511-743
+2024-08-01 00:51:35,965 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-08-01 00:51:36,039 - INFO -  * Restarting with stat
+2024-08-01 00:51:36,660 - INFO -  Add car function ended
+2024-08-01 00:51:36,661 - INFO - Update car function ended
+2024-08-01 00:51:36,662 - INFO - Delete function ended
+2024-08-01 00:51:36,662 - INFO - Get all cars function ended
+2024-08-01 00:51:36,663 - INFO - Get single car function ended
+2024-08-01 00:51:36,664 - INFO -  Get cars by year function ended
+2024-08-01 00:51:36,664 - INFO - Get cars by cost function ended
+2024-08-01 00:51:36,681 - WARNING -  * Debugger is active!
+2024-08-01 00:51:36,693 - INFO -  * Debugger PIN: 670-511-743
