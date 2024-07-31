@@ -198,6 +198,12 @@ log_info(f"Get single car function ended")
 
 @app.route('/cars/by_year/<int:year>', methods=['GET'])
 def get_cars_by_year(year):
+    """
+        Retrieves a list of cars manufactured in a specific year.
+
+        :param year: The year of manufacturing to filter cars by.
+        :return: JSON response with a list of cars manufactured in the given year or an error message.
+        """
     log_info(f"Get cars by year function started for year {year}")
     try:
         result = []
@@ -225,6 +231,11 @@ log_info(f" Get cars by year function ended")
 
 @app.route('/cars/by_cost', methods=['GET'])
 def get_cars_by_cost():
+    """
+      Retrieves a list of cars within a specified cost range.
+
+      :return: JSON response with a list of cars within the specified cost range or an error message.
+      """
     min_cost = request.args.get('min_cost', type=float)
     max_cost = request.args.get('max_cost', type=float)
     log_info(f"Get cars by cost range function started with min_cost {min_cost} and max_cost {max_cost}")

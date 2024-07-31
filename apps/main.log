@@ -347,3 +347,25 @@
 2024-08-01 00:51:36,664 - INFO - Get cars by cost function ended
 2024-08-01 00:51:36,681 - WARNING -  * Debugger is active!
 2024-08-01 00:51:36,693 - INFO -  * Debugger PIN: 670-511-743
+2024-08-01 00:59:19,847 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-08-01 00:59:19,970 - INFO -  * Restarting with stat
+2024-08-01 00:59:20,573 - INFO -  Add car function ended
+2024-08-01 00:59:20,575 - INFO - Update car function ended
+2024-08-01 00:59:20,576 - INFO - Delete function ended
+2024-08-01 00:59:20,578 - INFO - Get all cars function ended
+2024-08-01 00:59:20,579 - INFO - Get single car function ended
+2024-08-01 00:59:20,580 - INFO -  Get cars by year function ended
+2024-08-01 00:59:20,581 - INFO - Get cars by cost function ended
+2024-08-01 00:59:20,596 - WARNING -  * Debugger is active!
+2024-08-01 00:59:20,608 - INFO -  * Debugger PIN: 670-511-743
+2024-08-01 00:59:37,314 - INFO -  * Detected change in 'C:\\Users\\lenovo\\PycharmProjects\\mahindra_cars\\apps\\app.py', reloading
+2024-08-01 00:59:37,424 - INFO -  * Restarting with stat
+2024-08-01 00:59:37,956 - INFO -  Add car function ended
+2024-08-01 00:59:37,957 - INFO - Update car function ended
+2024-08-01 00:59:37,957 - INFO - Delete function ended
+2024-08-01 00:59:37,958 - INFO - Get all cars function ended
+2024-08-01 00:59:37,959 - INFO - Get single car function ended
+2024-08-01 00:59:37,959 - INFO -  Get cars by year function ended
+2024-08-01 00:59:37,960 - INFO - Get cars by cost function ended
+2024-08-01 00:59:37,971 - WARNING -  * Debugger is active!
+2024-08-01 00:59:37,981 - INFO -  * Debugger PIN: 670-511-743
